@@ -1,6 +1,6 @@
 # frontend-course-kimbug
-coding practice/records for Bugless-101 taught by rohjs (kimbug)
+Coding practice/records for Bugless-101 (frone-end) course put together by Roh Woohyeon (rohjs).
 
-Enrolled in HTML and CSS courses tuaght by Roh Woohyeon (rohjs), and codes in this repo demonstrate are written by myself to practice and follow the course.
+Files/Codes in this repo are written/produced by myself to practice and follow the course.
 
 First commit and push started on 11/01/2020
