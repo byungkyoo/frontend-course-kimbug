@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입</title>
+    <link rel="stylesheet" href="https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="./form2.css">
+</head>
+
+<body>
+    <h1>회원가입</h1>
+
+    <form action="#" method="POST">
+        <label for="user_name">이름</label>
+        <input type="text" id="user_name" required placeholder="이름을 입력하세요" minlength="2" />
+
+        <label for="user_id">아이디</label>
+        <input type="text" id="user_id" required placeholder="아이디를 입력하세요" minlength="5" maxlength="22" />
+
+        <label for="user_password">비밀번호</label>
+        <input type="text" id="user_password" placeholder="비밀번호를 입력하세요" minlength="5" maxlength="22" />
+
+        <label for="user_email">이메일</label>
+        <input type="email" id="user_email" placeholder="이메일을 입력하세요" minlength="5" />
+
+        <label for="user_file">프로필사진</label>
+        <input type="file" id="user_file" accept="image/*, video/*" />
+
+
+        <button type="submit">가입하기</button>
+
+    </form>
+</body>
+
+</html>
