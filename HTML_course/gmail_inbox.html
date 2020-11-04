@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gmail Inbox</title>
+    <link rel="stylesheet" href="./gmail_styles.css">
+</head>
+
+
+<body>
+    <table class="inbox">
+        <thead class="sr-only">
+            <tr>
+                <th scope="col">checkbox</th>
+                <th scope="col">sender</th>
+                <th scope="col">content</th>
+                <th scope="col">timestamp</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr class="unread">
+                <td>
+                    <div class="inbox-actions">
+                        <div class="inbox-checkbox">
+                            <input type="checkbox" id="inbox1">
+                            <label for="inbox1" class="sr-only">Select this Email</label>
+                        </div>
+                        <button type="button" class="inbox-star">
+                            <span class="sr-only">add to favorites</span>
+                        </button>
+                    </div>
+                </td>
+                <td>Amazon</td>
+                <td>
+                    <a href="#">
+                        <strong class="sr-only">unread</strong>
+                        <strong>Congratulations and Welcome to Am@zon</strong>
+                        <span> - Dear Byung Kweon Yoo, On behalf of the Am@zon, I would like extend an full-time offer... </span>
+                    </a>
+                </td>
+                <td>
+                    3:34 PM
+                </td>
+            </tr>
+
+            <tr class="read">
+                <td>
+                    <div class="inbox-actions">
+                        <div class="inbox-checkbox">
+                            <input type="checkbox" id="inbox2">
+                            <label for="inbox2" class="sr-only">select this email</label>
+                        </div>
+                        <button type="button" class="inbox-star">
+                            <span class="sr-only">add to favorite</span>
+                        </button>
+                    </div>
+                </td>
+
+                <td>Microsoft</td>
+                <td>
+                    <a href="#">
+                        <strong class="sr-only">read</strong>
+                        <strong>Interview Request</strong>
+                        <span> - Dear Byung Kweon, we are interested with your background and experience, and we want to interview...</span>
+                    </a>
+                </td>
+                <td>1:00 PM</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script src="gmail_app.js"></script>
+</body>
+
+</html>
